@@ -12,12 +12,12 @@ public class Cidade {
     }
 
     public void fazerRodovia (Cidade a) {
-        if(!isVizinha(a)) {
+        if(!ligacao(a)) {
             cidades.add(a);
         }
     }
 
-    public boolean isVizinha (Cidade a) {
+    public boolean ligacao (Cidade a) {
         for (Cidade cidade : this.cidades) {
             if (cidade == a)
                 return true;

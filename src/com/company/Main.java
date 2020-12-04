@@ -33,7 +33,6 @@ public class Main {
         gdc.criarRodoviaEntre(cid.get(8), cid.get(7));
         gdc.criarRodoviaEntre(cid.get(8), cid.get(3));
 
-
         gdc.DFS(cid.get(0));
         gdc.BFS(cid.get(0));
     }
